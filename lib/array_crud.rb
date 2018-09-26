@@ -3,7 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+  lst = []
+  4.times do
+    lst.push(rand(1..10))
+  end
+  lst
 end
 
 def add_element_to_end_of_array(array, element)
